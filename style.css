@@ -38,3 +38,10 @@ div.fotos{
     width: 350px;
     float: left;
 }
+footer{
+    max-width: 1000px;
+    min-height: 130px;
+    background: #000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+}
