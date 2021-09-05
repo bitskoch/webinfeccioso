@@ -34,6 +34,7 @@ body {
     margin-right: auto;
 }
 div.fotos{
-    width: 100%;
-    height: auto;
+    margin: 10px 20px;
+    width: 350px;
+    float: left;
 }
