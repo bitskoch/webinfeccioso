@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background: #333;
+    color: white;
+
+}
+   .header a{
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+    }
+
+.baner-centrado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .navigation ul li {
+    display: inline-block;
+    }
