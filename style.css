@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    background: #f50057;
+    background: #37474f;
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -34,14 +34,19 @@ body {
     margin-right: auto;
 }
 div.fotos{
-    margin: 10px 20px;
+
+    margin: 20px 10px;
     width: 350px;
     float: left;
 }
 footer{
-    max-width: 1000px;
-    min-height: 130px;
-    background: #000;
-    margin: 0 auto;
-    border-radius: 0 0 20px 20px;
+    position: fixed;
+    background: #90a4ae;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
 }
