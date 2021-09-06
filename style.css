@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background: url(fondo1.jpg.png);
 }
 
 .header {
@@ -11,7 +12,7 @@ body {
    .header a{
     color: white;
     text-decoration: none;
-    padding: 2rem;
+    padding: 1rem;
     }
 
 .baner-centrado{
