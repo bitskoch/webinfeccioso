@@ -1,18 +1,3 @@
--body {
-    margin: 0;
-    background: url(fondo1.jpg.png);
-}
-.header {
-    background: #37474f;
-    color: white;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
-   .header a{
-    color: white;
-    text-decoration: none;
-    padding: 1rem;
-    }
 
 .baner-centrado{
     display: flex;
