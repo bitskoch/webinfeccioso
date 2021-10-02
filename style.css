@@ -1,8 +1,7 @@
-body {
+-body {
     margin: 0;
     background: url(fondo1.jpg.png);
 }
-
 .header {
     background: #37474f;
     color: white;
