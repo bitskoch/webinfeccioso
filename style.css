@@ -1,10 +1,4 @@
 
-.baner-centrado{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .navigation ul {
     margin: 0;
     padding: 0;
