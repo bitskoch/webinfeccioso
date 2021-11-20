@@ -9,23 +9,38 @@
       <script>
         document.addEventListener('DOMContentLoaded', function() {
           var elems = document.querySelectorAll('.carousel');
-          var instances = M.Carousel.init(elems, {dist:0});
+          var instances = M.Carousel.init(elems, {duration:200});
         });
-      </script>   
+      </script>
+
+<head>
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 187, 0);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #ffbb00;
+  }
+  </style>
+  </head>
+  <ul>
+    <li><a href="#home">Ubicanos</a></li>
+    <li><a href="#news">Llamanos</a></li>
+    <li><a href="#contact">Quejas</a></li>
+    <li><a href="#about">Historia</a></li>
+  </ul>
 <body>
-
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">HUjoseloNASI</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Ubichame</a></li>
-        <li><a href="badges.html">Comprar</a></li>
-        <li><a href="collapsible.html">Desarrollador</a></li>
-      </ul>
-    </div>
-  </nav>
-
-
 
   <div class="carousel carousel-slider">
     <a class="carousel-item" href="#one!"><img src="img/imagen1.png"></a>

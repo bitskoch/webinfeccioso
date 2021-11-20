@@ -1,1 +1,5 @@
-.carousel { padding: 310px; margin: auto; width: 400px; }
+.carousel { padding: 310px; margin: auto; width: 400px; animation: cambio 5s infinite;}
+
+@keyframes cambio {
+    0% {margin-bottom: 0;}
+}
