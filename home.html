@@ -10,10 +10,26 @@
         document.addEventListener('DOMContentLoaded', function() {
           var elems = document.querySelectorAll('.carousel');
           var instances = M.Carousel.init(elems, {duration:200});
-        });
+          });
+      </script>
       </script>
 
 <head>
+
+  <style>
+    p.dotted {border-style: dotted;}
+    p.dashed {border-style: dashed;}
+    p.solid {border-style: solid;}
+    p.double {border-style: double;}
+    p.groove {border-style: groove;}
+    p.ridge {border-style: ridge;}
+    p.inset {border-style: inset;}
+    p.outset {border-style: outset;}
+    p.none {border-style: none;}
+    p.hidden {border-style: hidden;}
+    p.mix {border-style: dotted dashed solid double;}
+    </style>
+
 <style>
   ul {
     list-style-type: none;
@@ -24,55 +40,65 @@
   }
   
   li {
-    float: left;
+    float: left ;
   }
   
   li a {
     display: block;
-    padding: 8px;
+    padding: 32px;
     background-color: #ffbb00;
   }
   </style>
   </head>
   <ul>
-    <li><a href="#home">Ubicanos</a></li>
-    <li><a href="#news">Llamanos</a></li>
-    <li><a href="#contact">Quejas</a></li>
-    <li><a href="#about">Historia</a></li>
+    <li><a href="#home"></a></li>
+    <li><a href="#news">Inicio</a></li>
+    <li><a href="#contact">Contactanos</a></li>
+    <li><a href="#about">Sugerencias</a></li>
   </ul>
 <body>
+  <br>
 
   <div class="carousel carousel-slider">
     <a class="carousel-item" href="#one!"><img src="img/imagen1.png"></a>
     <a class="carousel-item" href="#two!"><img src="img/imagen2.png"></a>
     <a class="carousel-item" href="#three!"><img src="img/imagen3.png"></a>
   </div>
+  <br>
 
-  <p>hola</p>
+  <div class="contenedor1">CHENTES BEBIDAS</div>
+  <br>
+  
+  <img src="bebi/img1.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+  <img src="bebi/img2.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+  <img src="bebi/img3.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+  <img src="bebi/img4.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+
+
 </body>
 
 <footer class="page-footer">
   <div class="container">
     <div class="row">
       <div class="col l6 s12">
-        <h5 class="white-text">Ponte en contacto</h5>
-        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        <h5 class="white-text">Tu mejor snack</h5>
+        <p class="grey-text text-lighten-4">Chentes, snack al alcance de tu hogar.</p>
       </div>
       <div class="col l4 offset-l2 s12">
-        <h5 class="white-text">Links</h5>
+        <h5 class="white-text">Nuestras redes sociales.</h5>
         <ul>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Whatsapp</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Twiter</a></li>
         </ul>
       </div>
     </div>
   </div>
   <div class="footer-copyright">
     <div class="container">
-    © 2014 Copyright Text
-    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    © 2014 Copyright Jose Andy Huaynasi
+    <a class="grey-text text-lighten-4 right" href="#!">lhuaynasi@gmail.com</a>
     </div>
   </div>
 </footer>

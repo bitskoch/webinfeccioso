@@ -1,5 +1,14 @@
-.carousel { padding: 310px; margin: auto; width: 400px; animation: cambio 5s infinite;}
+.carousel { padding: 250px;  margin: auto; width: 400px; }
 
 @keyframes cambio {
     0% {margin-bottom: 0;}
 }
+
+.contenedor1 {
+    background-color: rgb(255, 166, 0);
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+    }
+
+img {border-radius: 20px;}
