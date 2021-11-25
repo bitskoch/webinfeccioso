@@ -5,9 +5,9 @@
 }
 
 .contenedor1 {
+    width: auto;
     background-color: #ff5917;
     height: 40px;
-    width: auto;
     border-radius: 5px;
     }
 
