@@ -1,9 +1,5 @@
 .carousel { padding: 250px;  margin: auto; width: 400px; }
 
-@keyframes cambio {
-    0% {margin-bottom: 0;}
-}
-
 .contenedor1 {
     width: auto;
     background-color: #ff5917;
