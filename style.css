@@ -1,10 +1,18 @@
 .carousel { padding: 250px;  margin: auto; width: 400px; }
 
 .contenedor1 {
+    margin-right: 100px;
+    margin-left: 100px;
     width: auto;
-    background-color: #ff5917;
-    height: 40px;
-    border-radius: 5px;
+    background-color: #ff5e00;
+    height: 45px;
+    border-radius: 12px;
     }
 
-img { border-radius: 20px;}
+img {margin-left: 100px; margin-right: -90px ;border-radius: 15px;}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 220%;
+}
