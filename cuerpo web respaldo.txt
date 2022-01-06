@@ -1,0 +1,23 @@
+  </div>
+  <div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="img/imagen1.png"></a>
+    <a class="carousel-item" href="#two!"><img src="img/imagen2.png"></a>
+    <a class="carousel-item" href="#three!"><img src="img/imagen3.png"></a>
+  </div>
+  <br>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+    </style>
+  <div class="contenedor1">
+    <p style="text-align:center">CHENTES COMIDAS</p>
+  </div>
+  <br>
+  <div class="flayer">
+    <img src="bebi/img1.png" alt="Girl in a jacket" style="margin-left: 100px; width:20%; border-radius: 15px">
+    <img src="bebi/img2.png" alt="Girl in a jacket" style="margin-left: 10px; width:20%; border-radius: 15px">
+    <img src="bebi/img3.png" alt="Girl in a jacket" style="margin-left: 10px; width:20%; border-radius: 15px">
+    <img src="bebi/img4.png" alt="Girl in a jacket" style="margin-left: 10px; width:20%; border-radius: 15px">
+  </div>  
+  <br>
+
+</body>
