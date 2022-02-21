@@ -11,7 +11,18 @@
 /*.flayer {margin-left: 100px; margin-right: -90px ;border-radius: 15px;}*/
 body {background-color: #ffffff;}
 p {
-    color: rgb(255, 255, 255);
-    font-family: 'Montserrat', sans-serif;
+    color: rgb(52, 56, 245);
+    font-family: 'Alfa Slab One', cursive;
     font-size: 220%;
+}
+
+span {
+    color: rgb(36, 40, 250);
+    font-family: 'Oswald', sans-serif;
+    font-size: 80%;
+}
+.texto {
+    color: rgb(58, 58, 58);
+    font-family: 'Bree Serif', serif;
+    font-size: 180%;
 }
