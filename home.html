@@ -10,7 +10,7 @@
         <script>
           document.addEventListener('DOMContentLoaded', function() {
             var elems = document.querySelectorAll('.carousel');
-            var instances = M.Carousel.init(elems, {duration:200});
+            var instances = M.Carousel.init(elems, {duration:200}, {fullWidth:Boolean});
             });
         </script>
         </script>
@@ -81,12 +81,11 @@
       </ul>
     </div>
   </nav>
-  <div class="carousel">
+  <div class="carousel carousel-slider">
     <a class="carousel-item" href="#one!"><img src="1.png"></a>
-    <a class="carousel-item" href="#two!"><img src="1.png"></a>
-    <a class="carousel-item" href="#three!"><img src="1.png"></a>
-    <a class="carousel-item" href="#four!"><img src="1.png"></a>
-    <a class="carousel-item" href="#five!"><img src="1.png"></a>
+    <a class="carousel-item" href="#one!"><img src="1.png"></a>
+    <a class="carousel-item" href="#one!"><img src="1.png"></a>
+    <a class="carousel-item" href="#one!"><img src="1.png"></a>
   </div>
   <div class="container">
     <div class="texto">
