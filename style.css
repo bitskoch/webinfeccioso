@@ -1,68 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(223, 223, 223);
 }
 
-li,a,button{
+li, a, button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: antiquewhite;
+    color: rgb(74, 74, 74);
     text-decoration: none;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.carousel { padding: 250px;  margin: auto; width: 400px; }
-
-.contenedor1 {
-    margin-right: 100px;
-    margin-left: 100px;
-    width: auto;
-    background-color: #a000a0;
-    height: 45px;
-    border-radius: 12px;
-    }
-/*.flayer {margin-left: 100px; margin-right: -90px ;border-radius: 15px;}
-body {background-color: #ffffff;}
-p {
-    color: rgb(52, 56, 245);
-    font-family: 'Alfa Slab One', cursive;
-    font-size: 220%;
+.logo {
+    width: 12%;
+    cursor: pointer;
 }
 
-span {
-    color: rgb(36, 250, 214);
-    font-family: 'Oswald', sans-serif;
-    font-size: 80%;
+.nav_links {
+    list-style: none;
 }
-.texto {
-    color: rgb(58, 58, 58);
-    font-family: 'Bree Serif', serif;
-    font-size: 180%;
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
 }
-*/
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(115, 36, 149);
+}
+
+button {
+    padding: 5px 15px;
+    background-color: rgb(42, 165, 157);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(9, 193, 147);
+}
