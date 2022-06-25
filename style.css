@@ -10,7 +10,6 @@
 /* Desktop menu */ 
 @media all and (min-width: 900px) { .item { display: block; width: auto; } .toggle { display: none; } .logo { order: 0; } .item { order: 1; } .button { order: 2; } .menu li { padding: 15px 10px; } .menu li.button { padding-right: 0; } }
 
-$(function() { $(".toggle").on("click", function() { if ($(".item").hasClass("active")) { $(".item").removeClass("active"); $(this).find("a").html("<i class='fas fa-bars'></i>"); } else { $(".item").addClass("active"); $(this).find("a").html("<i class='fas fa-times'></i>"); } }); });
 
 /*
 * {
