@@ -63,6 +63,11 @@ a:hover {
 .item.button {
     order: 2;
 }
+.button a {
+    padding: 7.5px 15px;
+    background: rgb(79, 76, 80);
+    border: 1px #15a7fc solid;
+}
 
 .item {
     width: 100%;
