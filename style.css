@@ -45,7 +45,7 @@ a:hover {
 }
 
 .button.secondary {
-    border-bottom: 1px #444 solid;
+    border-bottom: 1px rgb(238, 8, 8) solid;
 }
 
 /* Mobile menu */
@@ -106,8 +106,8 @@ a:hover {
 
     .button a {
         padding: 7.5px 15px;
-        background: teal;
-        border: 1px #006d6d solid;
+        background: rgb(79, 76, 80);
+        border: 1px #15a7fc solid;
     }
 
     .button.secondary a {
@@ -119,7 +119,7 @@ a:hover {
     }
 
     .button:not(.secondary) a:hover {
-        background: #006d6d;
+        background: #fe790d;
         border-color: #005959;
     }
 
