@@ -247,3 +247,14 @@ button:hover {
 .btn1{
     background-image: linear-gradient(to left, #103239, #161569, #0c4955);
 }
+
+.container-all{
+    position: relative;
+    max-width: 1000;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slide{
+    display: flex;
+}
