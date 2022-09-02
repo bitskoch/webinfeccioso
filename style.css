@@ -229,7 +229,7 @@ button:hover {
     align-content: center;
     justify-content: center;
     display: grid;
-    height: 100vh;
+    height: 20vh;
 }
 
 .btn{
