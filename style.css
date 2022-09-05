@@ -224,6 +224,11 @@ button:hover {
     background-color: rgb(9, 193, 147);
 }
 */
+.note{
+    font-size: 130%;
+    color: #15a7fc;
+    
+}
 
 .contenedor{
     align-content: center;
@@ -252,7 +257,7 @@ button:hover {
     position: relative;
     max-width: 1000;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0px;
     overflow: hidden;
 }
 .slide{
